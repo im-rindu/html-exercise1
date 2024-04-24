@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400..700&display=swap');
+@font-face {
+    font-family: 'Modern20';
+    src: url('fonts/MOD20.TTF') format('truetype');
+}
+
+body, figure {
+    margin: 0;
+    background-color: #F4F5F7;
+}
+
+header, main, footer {
+    padding: 0 100px;
+    font: 400 14px 'Open Sans', sans-serif;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+
+/* heading */ 
+h1 {
+    font: 400 48px 'Modern20', serif;
+    text-align: center;
+}
+
+h2 {
+    font: 600 36px 'Open Sans', sans-serif;
+    line-height: 50px;
+    text-align: center;
+}
+
+h3 {
+    font: 600 24px 'Open Sans', sans-serif;
+}
+
+h4 {
+    font: 700 18px 'Open Sans', sans-serif;
+    line-height: 24.5px;
+}
+
+
+/* the very top bar */
+.sticky {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #c4c4c4;
+    text-decoration-line: underline;
+    top: 0;
+}
+
+.sticky .sticky-right {
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    width: 20%;
+    top: 10px;
+    right: 100px;
+}
+
+
+/* header & nav */
+header {
+    padding-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    font: 400 18px 'Modern20', serif;
+}
+
+
+/* main */
+main {
+ margin-top: 25px;   
+}
+
+main img {
+    width: 100%;
+}
+
+main button {
+    width: 250px;
+    padding: 25px 0px;
+    margin-top: 25px;
+    font-weight: 600;
+    background-color: #F4F5F7;
+    box-shadow: none;
+    border: 1px solid;
+}
+
+main button:hover {
+    background-color: #c4c4c4;
+    color: #F4F5F7;
+}
+
+main .featured figcaption {
+    font: 400 18px 'Open Sans', sans-serif;
+    line-height: 24.5px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+main .featured h2{
+    font: 400 36px 'Modern20', serif;
+    line-height: 42.5px;
+}
+
+main .featured-2{
+    text-align: left;
+}
+
+main .featured-2 figure{
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+main .featured-2 img{
+    width: 70%;
+}
+
+main .featured-3{
+    position: relative;
+}
+
+main .featured-3 figcaption{
+    position: absolute; 
+    bottom: 35px;
+    right: 30px;
+}
+
+main .featured-3 h3{
+    letter-spacing: 10px;
+    color: white;
+    margin-bottom: 0;
+}
+
+main .new-arrivals .list {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    font-weight: 600;
+}
+
+main .new-arrivals .color-available {
+    font-size: 12px;
+    color: #848484;
+    margin-bottom: 0;
+}
+
+main .new-arrivals .item-name {
+    margin-top: 0;
+}
+
+
+/* footer */
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 30px;
+    padding: 0;
+}
+
+footer .store-locator {
+    margin-top: 40px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+footer .social-icons img{
+    width: 30px;
+    height: 30px;
+}
