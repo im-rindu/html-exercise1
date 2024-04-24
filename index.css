@@ -166,6 +166,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color: #fff;
+    padding-bottom: 50px;
 }
 
 footer ul {
